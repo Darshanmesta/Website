@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.first{
+  background-color: Azure;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+h1{
+  width: 40%;
+  margin: auto;
+font-family: 'Montez', cursive;
+}
+
+p{
+font-family: 'Montserrat', sans-serif;
+}
+
+.top_cloud{
+  position: absolute;
+  width: 80px;
+  top: 60px;
+  right: 500px;
+
+}
+
+.bottom_cloud{
+  position: absolute;
+  width: 80px;
+  top: 160px;
+  left: 450px;
+
+}
