@@ -3,6 +3,7 @@ body{
   padding: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+
 }
 
 .first{
@@ -36,4 +37,73 @@ font-family: 'Montserrat', sans-serif;
   top: 160px;
   left: 450px;
 
+}
+.second{
+ background-color: azure;
+
+  position: relative;
+}
+
+.personal_profile{
+  padding-top: 20px;
+}
+
+.profile{
+  border-radius: 40%;
+
+
+}
+
+
+
+.Prof{
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  text-decoration: underline;
+}
+
+
+.third{
+  background-color: azure;
+  position: relative;
+
+}
+
+.Interest{
+  position: absolute;
+  top: 10px;
+  left: 40px;
+
+  text-decoration: underline;
+}
+
+.Interests{
+  padding-top: 20px;
+}
+
+.Contact {
+  padding-top: 20px;
+  position: relative;
+}
+
+
+.suggest{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  text-decoration: underline;
+}
+
+
+a:hover{
+  background-color: yellow;
+}
+
+a:visited{
+  background-color: crimson;
+}
+
+a:active{
+  background-color: blue;
 }
