@@ -42,14 +42,14 @@ font-family: 'Montserrat', sans-serif;
  background-color: azure;
 
   position: relative;
+
 }
 
-.personal_profile{
-  padding-top: 20px;
-}
 
 .profile{
   border-radius: 40%;
+  float: left;
+  margin-right: 20px;
 
 
 }
@@ -80,11 +80,16 @@ font-family: 'Montserrat', sans-serif;
 
 .Interests{
   padding-top: 20px;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 30px;
+
 }
 
 .Contact {
   padding-top: 20px;
   position: relative;
+  background-color: azure;
 }
 
 
@@ -110,4 +115,66 @@ a:active{
 
 img:hover{
   background-color: Violet;
+
+}
+
+.p1{
+
+    font-family: 'Libre Caslon Display', serif;
+  text-transform: capitalize;
+text-align: justify;
+line-height: 2rem;
+
+
+
+}
+
+.Profile{
+  padding-top: 60px;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.p2{
+  font-size: 1rem;
+  font-family: 'Libre Caslon Display', serif;
+  text-transform: capitalize;
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.cmp{
+  float: right;
+  margin-left: 40px;
+}
+
+.p3{
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1rem;
+}
+
+.p4{
+  font-family: 'Cookie', cursive;
+  font-size: 1.3rem;
+}
+
+.p5{
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.6rem;
+
+}
+
+.p6{
+   font-family: 'Great Vibes', cursive;
+   font-size: 1.4rem;
+}
+
+h3{
+ font-family: 'Sawarabi Mincho', sans-serif;
+  color: #01024e;
+}
+
+h3:hover{
+  background-color: #f0dd92;
 }
