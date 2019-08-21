@@ -39,7 +39,7 @@ font-family: 'Montserrat', sans-serif;
 
 }
 .second{
- background-color: azure;
+
 
   position: relative;
 
@@ -57,23 +57,21 @@ font-family: 'Montserrat', sans-serif;
 
 
 .Prof{
-  position: absolute;
-  top: 10px;
-  left: 50px;
+
   text-decoration: underline;
+  margin: auto;
+  padding-top: 40px;
 }
 
 
 .third{
-  background-color: azure;
+
   position: relative;
 
 }
 
 .Interest{
-  position: absolute;
-  top: 10px;
-  left: 40px;
+  margin: auto;
 
   text-decoration: underline;
 }
@@ -89,15 +87,14 @@ font-family: 'Montserrat', sans-serif;
 .Contact {
   padding-top: 20px;
   position: relative;
-  background-color: azure;
-}
+  }
 
 
 .suggest{
-  position: absolute;
-  top: 20px;
-  left: 50px;
+
+padding-bottom: 10px;
   text-decoration: underline;
+  margin: auto;
 }
 
 
@@ -124,6 +121,7 @@ img:hover{
   text-transform: capitalize;
 text-align: justify;
 line-height: 2rem;
+padding-top: -10px;
 
 
 
@@ -162,6 +160,7 @@ line-height: 2rem;
 .p5{
   font-family: 'Great Vibes', cursive;
   font-size: 1.6rem;
+  padding-top: 20px;
 
 }
 
@@ -177,4 +176,50 @@ h3{
 
 h3:hover{
   background-color: #f0dd92;
+}
+
+hr{
+
+  border: dotted 3px #584b42;
+  border-bottom: none;
+  width: 10%;
+
+}
+
+a{
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: none;
+   margin:10px 10px;
+}
+
+
+.butn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 22;
+  -moz-border-radius: 22;
+  border-radius: 22px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fe;
+  background-image: -webkit-linear-gradient(top, #3cb0fe, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fe, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fe, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fe, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fe, #3498db);
+  text-decoration: none;
+}
+
+.foot{
+    background-color: #A4D1C8;
 }
